@@ -687,6 +687,11 @@ video.achievement-media {
   color: var(--muted);
 }
 
+.footer-links {
+  display: inline-flex;
+  gap: 16px;
+}
+
 .lightbox {
   position: fixed;
   inset: 0;
