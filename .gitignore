@@ -1,0 +1,9 @@
+# Local duplicate media exports not used by the published site
+assets/igvc-video.mov
+assets/igvc-video.m4v
+assets/igvc-video.mp4
+assets/igvc-event.jpg
+assets/igvc-event-new.jpg
+
+# macOS metadata
+.DS_Store
