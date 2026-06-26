@@ -689,7 +689,13 @@ video.achievement-media {
 
 .footer-links {
   display: inline-flex;
-  gap: 16px;
+  gap: 0;
+}
+
+.footer-links a + a::before {
+  content: "|";
+  margin: 0 12px;
+  color: var(--line);
 }
 
 .lightbox {
