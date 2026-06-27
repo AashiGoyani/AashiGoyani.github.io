@@ -315,6 +315,23 @@ code {
   color: var(--muted);
 }
 
+.experience-points {
+  display: grid;
+  gap: 8px;
+  max-width: 800px;
+  margin: 0;
+  padding-left: 20px;
+  color: var(--muted);
+}
+
+.experience-points li {
+  padding-left: 2px;
+}
+
+.experience-points li::marker {
+  color: var(--accent);
+}
+
 .coursework {
   display: flex;
   flex-wrap: wrap;
