@@ -351,6 +351,17 @@ code {
   line-height: 1.2;
 }
 
+#education .coursework {
+  gap: 6px;
+  margin-top: 12px;
+}
+
+#education .coursework span {
+  padding: 4px 9px;
+  font-size: 0.72rem;
+  line-height: 1.15;
+}
+
 .achievement-card {
   border: 1px solid var(--line);
   border-radius: 8px;
